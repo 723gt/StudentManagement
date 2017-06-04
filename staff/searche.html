@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> 学生管理システム</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <h1> 学生検索 </h1>
+        </div>
+        <div class="text-center">
+          <label>
+            学生の氏名又は学籍番号を入力してください
+          </label>
+        </div>
+      </div>
+      <form>
+        <div class="stusdentNo row">
+          <span class="col-md-1 col-md-offset-4">
+            <label>
+              学籍番号:
+            </label>
+          </span>
+          <span class="col-md-5">
+            <input type="text" name="stusdentNo">
+          </span>
+        </div>
+        <div class="stusdentName row">
+          <span class="col-md-1 col-md-offset-4">
+            <label>
+              氏名:
+            </label>
+          </span>
+          <span class="col-md-5">
+            <input type="text" name="stusdentName">
+          </span>
+        </div>
+        <br>
+        <div class="submit row">
+          <input class="col-md-2 col-md-offset-5 col-xs-offset-5" type="submit" value="検索">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
