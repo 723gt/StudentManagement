@@ -16,6 +16,19 @@
         <h1 class="col-md-3 col-md-offset-5">
           学生情報更新
         </h1>
+        <p>
+          <div class="studentNo row">
+            <span class="col-md-2 col-md-offset-4">
+              <label>
+                更新対象の学籍番号
+              </label>
+            </span>
+            <span class="col-md-1">
+              <input type="text" name="studentNo">
+            </span>
+          </div>
+        </p>
+        <hr>
       </div>
       <form>
         <p>
@@ -51,6 +64,14 @@
             </span>
             <span class="col-md-1">
               <input type="text" name="class">
+            </span>
+            <span class="col-md-1 col-md-offset-2">
+              <label>
+                退学:
+              </label>
+            </span>
+            <span class="col-md-1">
+              <input type="checkbox" name="退学">
             </span>
           </div>
         </p>
@@ -197,17 +218,12 @@
               </label>
             </span>
             <span class="col-md-5">
-              <input type="text" name="qualificationName">
-            </span>
-          </div>
-          <div class="qualificationName row">
-            <span class="col-md-1 col-md-offset-4">
-              <label>
-                取得日:
-              </label>
-            </span>
-            <span class="col-md-5">
-              <input type="date" name="qualificationdate">
+              <select name="qualificationName" size="1" multiple >
+                <option value="kihon">基本情報</option>
+                <option value="ohyou">応用情報</option>
+                <option value="nws"> ネットワークスペシャリスト</option>
+                <option value="dbs"> データベーススペシャリスト</option>
+              </select>
             </span>
           </div>
         </p>
