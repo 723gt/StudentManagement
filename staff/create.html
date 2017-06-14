@@ -112,6 +112,25 @@
           </div>
         </p>
         <p>
+          <div class="Postalcode row">
+            <sapn class="col-md-1 col-md-offset-4">
+              <label>
+                郵便番号:
+              </label>
+            </sapn>
+            <span class="col-md-3">
+              <input type="text" name="top">
+            </span>
+          </div>
+          <div class="ex row">
+            <span class="col-md-3 col-md-offset-5">
+              <label>
+                例:1234567
+              </label>
+            </span>
+          </div>
+        </p>
+        <p>
           <div class="prefectures row">
             <span class="col-md-1 col-md-offset-4">
               <label>
@@ -193,10 +212,25 @@
           </div>
         </p>
         <p>
-          <div class="Qualification row">
-            <span class="col-md-2 col-md-offset-5 col-xs-offset-5">
+          <div class="qualificationName row">
+            <span class="col-md-1 col-md-offset-4">
               <label>
-                資格
+                資格名:
+              </label>
+            </span>
+            <span class="col-md-5">
+              <select name="qualificationName" size="1" multiple >
+                <option value="kihon">基本情報</option>
+                <option value="ohyou">応用情報</option>
+                <option value="nws"> ネットワークスペシャリスト</option>
+                <option value="dbs"> データベーススペシャリスト</option>
+              </select>
+            </span>
+          </div>
+          <div class="ex row">
+            <span class="col-md-3 col-md-offset-5">
+              <label>
+                複数選択可(shiftを押しながらクリック)
               </label>
             </span>
           </div>
