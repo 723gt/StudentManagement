@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> 学生管理システム</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="titles row">
+        <h1 class="col-md-3 col-md-offset-5">
+         クラス登録
+        </h1>
+      </div>
+      <br>
+      <div class="row">
+        <span class="col-md-3 col-md-offset-5">
+          <label>
+            クラスの作成・登録
+          </label>
+        </span>
+      </div>
+      <form>
+        <p>
+          <div class="schoolYear row">
+            <span class="col-md-1 col-md-offset-4">
+              <label>
+                学年:
+              </label>
+            </span>
+            <span class="col-md-1">
+              <select name="schloolYher"> 
+                <option vlaue="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>年
+            </span>
+            <span class="col-md-1">
+              <select name="class">
+                <option vlaue="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>組
+            </span>
+          </div>
+
+        <p>
+          <div class="qualification row">
+            <span class="col-md-1 col-md-offset-4">
+              <label>
+                担任名:
+              </label>
+            </span>
+            <span class="col-md-5">
+              <input type="text" name="qualification" width="10px">
+            </span>
+          </div>
+        </p>
+        <div class="studentNo row">
+          <span class="col-md-5 col-md-offset-5">
+            <label>
+              学籍番号
+            </label>
+          </span>
+        </div>
+        <p>
+          <div class="qualification row">
+            <span class="col-md-5 col-md-offset-5">
+              <input type="text" name="qualification" width="10px">
+            </span>
+          </div>
+        </p>
+        <p>
+          <div class="qualification row">
+            <span class="col-md-5 col-md-offset-5">
+              <input type="text" name="qualification" width="10px">
+            </span>
+          </div>
+        </p>
+        <p>
+          <div class="qualification row">
+            <span class="col-md-5 col-md-offset-5">
+              <input type="text" name="qualification" width="10px">
+            </span>
+          </div>
+        </p>
+        
+        <br>
+        <p>
+          <div class="submit row">
+            <input class="col-md-2 col-md-offset-5 col-xs-offset-5" type="submit" value="登録">
+          </div>
+        </p>
+       </form>
+    </div>
+  </body>
+</html>
